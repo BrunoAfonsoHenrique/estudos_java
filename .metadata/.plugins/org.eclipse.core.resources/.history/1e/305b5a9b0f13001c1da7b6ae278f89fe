@@ -1,0 +1,27 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioArray {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		System.out.print("Digite a quantidade de notas do aluno: ");
+		int qtdNotas = leia.nextInt();
+		
+		double[] notas = new double[qtdNotas];
+			
+		for(int cont = 0; cont < qtdNotas; cont++) {
+			int numNota = 1;
+			System.out.printf("Digite a %d° nota: ", numNota);
+			notas[cont] = leia.nextDouble();	
+		}
+		
+		System.out.println(notas);
+			
+		leia.close();
+
+	}
+
+}

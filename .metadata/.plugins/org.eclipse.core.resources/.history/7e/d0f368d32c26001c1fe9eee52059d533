@@ -1,0 +1,51 @@
+package Aula06.Desafio;
+
+public class Notebook {
+	
+	private boolean tampado;
+	private int volumeSom;
+	private boolean ligado;
+	private boolean digitando;
+	
+	public Notebook() {
+		this.tampado = true;
+		this.volumeSom = 0;
+		this.ligado = false;
+		this.digitando = false;
+	}
+
+	public boolean isTampado() {
+		return tampado;
+	}
+
+	public void setTampado(boolean tampado) {
+		this.tampado = tampado;
+	}
+
+	public int getVolumeSom() {
+		return volumeSom;
+	}
+
+	public void setVolumeSom(int volumeSom) {
+		this.volumeSom = volumeSom;
+	}
+
+	public boolean isLigado() {
+		return ligado;
+	}
+
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+	public boolean isDigitando() {
+		return digitando;
+	}
+
+	public void setDigitando(boolean digitando) {
+		this.digitando = digitando;
+	}
+	
+	
+	
+}

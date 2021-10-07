@@ -1,0 +1,14 @@
+package desafio;
+
+public class contaTeste {
+
+	public static void main(String[] args) {
+		
+		ContaBanco joao = new ContaBanco(false, 0);
+		joao.setDono("João");
+		joao.abrirConta("CC");
+		joao.depositar(300);
+		
+	}
+
+}

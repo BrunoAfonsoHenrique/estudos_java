@@ -1,0 +1,13 @@
+package aula04;
+
+public class CafeteiraTeste {
+
+	public static void main(String[] args) {
+		
+		Cafeteira c1 = new Cafeteira();
+		
+		System.out.println(c1.getCor());
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package aula04;
+
+public class Cafeteira {
+	
+	private String cor;
+	private float peso;
+	private String marca;
+	private float qtdAgua;
+	private String materialBule;
+	private float preco;
+	
+	
+}

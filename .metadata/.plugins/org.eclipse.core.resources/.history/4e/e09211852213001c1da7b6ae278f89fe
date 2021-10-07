@@ -1,0 +1,44 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioMatriz {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.print("Quantos alunos tem na turma: ");
+		int qtdAlunos = leia.nextInt();
+		
+		System.out.print("Quantas notas cada aluno tem: ");
+		int qtdNotas = leia.nextInt();
+		
+		double[][] notas = new double [qtdAlunos][qtdNotas ];
+		
+		// Entrada das notas dos alunos
+		double soma = 0;
+		for(int cont = 0; cont < notas[qtdAlunos].length; cont++) {
+			for(int cont2 = 0; cont2 < notas[qtdNotas].length; cont2++) {
+				System.out.printf("Digite a nota do aluno %d: ",cont2+1, cont+1);
+				notas[cont][cont2]= leia.nextDouble();
+				soma += notas[cont][cont2];
+			}
+		}
+		
+		//Soma o total das notas e ao mesmo tempo mostra a matriz
+		for(int cont = 0; cont < qtdAlunos; cont++) {
+			for(int cont2 = 0; cont2 < qtdNotas; cont2++) {
+				System.out.print("["+notas[cont][cont2]+"]");			
+			}
+			System.out.println("");
+		}
+		
+		double media = soma /(qtdAlunos* qtdNotas);
+		System.out.println(media);
+		
+		leia.close();
+
+	}
+
+}

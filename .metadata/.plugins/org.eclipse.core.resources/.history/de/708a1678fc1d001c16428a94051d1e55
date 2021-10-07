@@ -1,0 +1,26 @@
+package aula02;
+
+public class BuleDeCafe {
+	
+	double tamanho;
+	String cor;
+	boolean alca;
+	boolean tampada;
+	
+	
+	void estaTampada() {
+		if(this.tampada == true) {
+			System.out.println("Não tem café dentro");
+		}else {
+			System.out.println("Tem café dentro");
+		}
+	}
+	
+	void tamparBule() {
+		this.tampada = true;
+	}
+	
+	void destamparBule() {
+		this.tampada = false;
+	}
+}

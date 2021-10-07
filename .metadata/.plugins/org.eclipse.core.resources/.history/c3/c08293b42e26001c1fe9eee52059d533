@@ -1,0 +1,91 @@
+package Aula06.Desafio;
+
+public class Notebook implements NotebookControlador {
+	
+	private boolean tampado;
+	private int volumeSom;
+	private boolean ligado;
+	private boolean digitando;
+	
+	public Notebook() {
+		this.tampado = true;
+		this.volumeSom = 0;
+		this.ligado = false;
+		this.digitando = false;
+	}
+
+	public boolean getTampado() {
+		return tampado;
+	}
+
+	public void setTampado(boolean tampado) {
+		this.tampado = tampado;
+	}
+
+	public int getVolumeSom() {
+		return volumeSom;
+	}
+
+	public void setVolumeSom(int volumeSom) {
+		this.volumeSom = volumeSom;
+	}
+
+	public boolean getLigado() {
+		return ligado;
+	}
+
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+	public boolean getDigitando() {
+		return digitando;
+	}
+
+	public void setDigitando(boolean digitando) {
+		this.digitando = digitando;
+	}
+
+	@Override
+	public void ligar() {
+		if(this.get)
+		
+	}
+
+	@Override
+	public void desligar() {
+		
+		
+	}
+
+	@Override
+	public void tampar() {
+		
+		
+	}
+
+	@Override
+	public void destampar() {
+		
+		
+	}
+
+	@Override
+	public void digitar() {
+		
+		
+	}
+
+	@Override
+	public void aumentarSom() {
+		
+		
+	}
+
+	@Override
+	public void diminuirSom() {
+		
+		
+	}
+		
+}

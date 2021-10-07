@@ -1,0 +1,26 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner leia = new Scanner(System.in);
+		
+		double soma = 0;
+		
+		for(int cont = 1; cont < 4;cont++ ) {
+			System.out.println("Salario " + cont+": ");
+			String sal = leia.nextLine();
+			double salario = Double.parseDouble(sal);
+			
+			soma = salario + soma;
+			System.out.println(soma);
+			
+		}
+
+	}
+
+}

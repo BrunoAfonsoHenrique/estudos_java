@@ -1,0 +1,33 @@
+package fundamentos.operadores;
+
+import java.util.Scanner;
+
+public class DesafiosFinais {
+
+	public static void main(String[] args) {
+		
+		/* 1 - Criar um programa que leia a temperatura em Celsius e 
+		 * converta para Fahrenheit. */
+		
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.print("Digite a temperatura em Celsius: C° ");
+		double c = leia.nextDouble();
+		
+	
+		
+		double f = c * 1.8 + 32;
+		
+		System.out.printf("A temperatura em Fahrenheit é F° %.2f", f );
+		
+		/* 2 - Criar um programa que leia a temperatura em 
+		 * Fahrenheit e converta para Celsius.
+		 */
+		
+		System.out.print("Digite a temperatura em Fahrenheit é F° ");
+		c = leia.nextDouble();
+		c = (f - 32) / 1.8;
+		System.out.printf("A temperatura em em Celsius é C° %.2f", f );
+	}
+
+}
