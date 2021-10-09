@@ -1,0 +1,10 @@
+package alula07relacionamentoentreclasses.inter.treino;
+
+public class TelevisaoTeste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

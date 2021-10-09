@@ -1,0 +1,16 @@
+package desafios.bruno.pessoa;
+
+public class PessoaTeste {
+
+	public static void main(String[] args) {
+		
+		Pessoa p[] = new Pessoa[4];
+		
+		p[0] = new Pessoa("Bruno", "Preto", "Masculino", "Castranho escuro", 1.74f, 55f);
+		
+		p[0].status();
+		
+
+	}
+
+}

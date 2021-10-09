@@ -1,0 +1,94 @@
+package desafios.bruno.pessoa;
+
+public class Pessoa {
+	
+	private String nome;
+	private String corOlhos;
+	private String genero;
+	private String corCabelo;
+	private float altura;
+	private float peso;
+	private boolean movimento;
+	
+	
+	public Pessoa(String nome, String corOlhos, String genero, String corCabelo, float altura, float peso, boolean movimento) {
+		this.nome = nome;
+		this.corOlhos = corOlhos;
+		this.genero = genero;
+		this.corCabelo = corCabelo;
+		this.altura = altura;
+		this.peso = peso;
+		
+	}
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+	public String getCorOlhos() {
+		return corOlhos;
+	}
+
+
+	public void setCorOlhos(String corOlhos) {
+		this.corOlhos = corOlhos;
+	}
+
+
+	public String getGenero() {
+		return genero;
+	}
+
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+
+	public String getCorCabelo() {
+		return corCabelo;
+	}
+
+
+	public void setCorCabelo(String corCabelo) {
+		this.corCabelo = corCabelo;
+	}
+
+
+	public float getAltura() {
+		return altura;
+	}
+
+
+	public void setAltura(float altura) {
+		this.altura = altura;
+	}
+
+
+	public float getPeso() {
+		return peso;
+	}
+
+
+	public void setPeso(float peso) {
+		this.peso = peso;
+	}
+
+
+	public boolean getMovimento() {
+		return movimento;
+	}
+
+
+	public void setMovimento(boolean movimento) {
+		this.movimento = movimento;
+	}
+	
+}

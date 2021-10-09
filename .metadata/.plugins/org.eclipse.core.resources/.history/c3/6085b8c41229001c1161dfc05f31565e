@@ -1,0 +1,102 @@
+package alula07relacionamentoentreclasses.inter.treino;
+
+public class Televisao implements TelevisaoControlador{
+	
+	private boolean ligada;
+	private boolean desligada;
+	private int canal;
+	private boolean internet;
+	private boolean smart;
+	
+	public Televisao() {
+		this.setLigada(false);
+		this.setInternet(false);
+	}
+	
+	//Getters e Setters
+
+	private boolean getLigada() {
+		return ligada;
+	}
+
+	private void setLigada(boolean ligada) {
+		this.ligada = ligada;
+	}
+
+	private boolean getDesligada() {
+		return desligada;
+	}
+
+	private void setDesligada(boolean desligada) {
+		this.desligada = desligada;
+	}
+
+	private int getCanal() {
+		return canal;
+	}
+
+	private void setCanal(int canal) {
+		this.canal = canal;
+	}
+
+	private boolean getInternet() {
+		return internet;
+	}
+
+	private void setInternet(boolean internet) {
+		this.internet = internet;
+	}
+
+	public boolean getSmart() {
+		return smart;
+	}
+
+	private void setSmart(boolean smart) {
+		this.smart = smart;
+	}
+	
+	//Métodos
+
+	@Override
+	public void ligar() {
+		this.setLigada(true);
+		
+	}
+
+	@Override
+	public void desligar() {
+		
+		
+	}
+
+	@Override
+	public void trocarCanal() {
+		
+		
+	}
+
+	@Override
+	public void conectarInternet() {
+		
+		
+	}
+
+	@Override
+	public void desconectarInternet() {
+		
+		
+	}
+
+	@Override
+	public void assistirNetflix() {
+		
+		
+	}
+
+	@Override
+	public void verificarSmartTv() {
+		
+		
+	}
+	
+}

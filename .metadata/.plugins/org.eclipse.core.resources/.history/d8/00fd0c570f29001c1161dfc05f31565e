@@ -1,0 +1,6 @@
+package alula07relacionamentoentreclasses.inter.treino;
+
+public interface Livro {
+	
+	
+}
