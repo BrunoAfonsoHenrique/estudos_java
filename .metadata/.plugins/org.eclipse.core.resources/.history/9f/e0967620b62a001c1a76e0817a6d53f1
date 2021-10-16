@@ -1,0 +1,48 @@
+package alula07relacionamentoentreclasses.cliente;
+
+public class Compra {
+	
+	private Cliente comprador;
+	private int numeroCompra;
+	private float preco;
+	private String produto;
+	
+	public Compra(int numeroCompra, float preco, String produto) {
+		this.setNumeroCompra(numeroCompra);
+		this.setPreco(preco);
+		this.setProduto(produto);
+	}
+
+	public Cliente getComprador() {
+		return comprador;
+	}
+
+	public void setComprador(Cliente comprador) {
+		this.comprador = comprador;
+	}
+
+	public int getNumeroCompra() {
+		return numeroCompra;
+	}
+
+	public void setNumeroCompra(int numeroCompra) {
+		this.numeroCompra = numeroCompra;
+	}
+
+	public float getPreco() {
+		return preco;
+	}
+
+	public void setPreco(float preco) {
+		this.preco = preco;
+	}
+
+	public String getProduto() {
+		return produto;
+	}
+
+	public void setProduto(String produto) {
+		this.produto = produto;
+	}
+	
+}

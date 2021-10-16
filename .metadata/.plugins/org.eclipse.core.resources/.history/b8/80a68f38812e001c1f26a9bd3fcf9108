@@ -1,0 +1,14 @@
+package projetoLivro;
+
+public class ProjetoLivro {
+
+	public static void main(String[] args) {
+		
+		Pessoa[] p = new Pessoa[2];
+		
+		p[0] = new Pessoa("Bruno", 26, "M");
+		
+
+	}
+
+}

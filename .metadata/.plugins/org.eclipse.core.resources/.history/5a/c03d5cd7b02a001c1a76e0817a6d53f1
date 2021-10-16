@@ -1,0 +1,12 @@
+package alula07relacionamentoentreclasses.cliente;
+
+public class Loja {
+
+	public static void main(String[] args) {
+		
+		Cliente c[] = new Cliente[2];
+		c[0] = new Cliente("Bruno", "Masculino", "Rua daniel bruzamolino 136", 26, "teste@gmail.com", "11982010014");
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package projetoLivro;
+
+public class ProjetoLivro {
+
+	public static void main(String[] args) {
+		
+		Pessoa[] p = new Pessoa[3];
+		
+		p[0] = new Pessoa("Bruno", 26, 'M');
+		p[1] = new Pessoa("Caio", 30, 'M');
+		p[2] = new Pessoa("Amanda", 22, 'F');
+		
+		
+		
+
+	}
+
+}

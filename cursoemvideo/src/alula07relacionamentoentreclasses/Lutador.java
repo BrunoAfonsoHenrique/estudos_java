@@ -12,9 +12,6 @@ public class Lutador {
 	private int derrotas;
 	private int empates;
 	
-	
-	
-	
 	public Lutador(String nome, String nacionalidade, int idade, float altura, float peso, int vitorias, int derrotas, int empates) {
 
 		this.nome = nome;
@@ -28,8 +25,7 @@ public class Lutador {
 	}
 
 	public void apresentar(){
-		System.out.println("-------------------------------------------------------");
-		System.out.println("Lutador: " + this.getNome());
+		
 		System.out.println("Origem: " + this.getNacionalidade());
 		System.out.println("Idade: " + this.getIdade() + " de idade");
 		System.out.println("Altura: " + this.getAltura());
@@ -40,7 +36,7 @@ public class Lutador {
 	}
 	
 	public void status() {
-		System.out.println("--------------------------------------------------------------");
+		
 		System.out.println(this.getNome() + " é um peso " + this.getCategoria());
 		System.out.println("Ganhou " + this.getVitorias() + " vezes, "
 				+ "perdeu " + this.getDerrotas() + " vezes e empatou " + this.getEmpates() + " vezes");
