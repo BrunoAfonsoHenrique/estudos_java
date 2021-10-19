@@ -1,0 +1,15 @@
+package estudoherancapoo;
+
+public class AnimalAquatico {
+	
+	private String nadar;
+
+	public String getNadar() {
+		return nadar;
+	}
+
+	public void setNadar(String nadar) {
+		this.nadar = nadar;
+	}
+	
+}

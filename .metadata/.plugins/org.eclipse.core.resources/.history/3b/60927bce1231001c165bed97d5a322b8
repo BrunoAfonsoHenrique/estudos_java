@@ -1,0 +1,24 @@
+package estudoherancapoo;
+
+public class AnimalTerreste extends Animal{
+	
+	private String andar;
+	private float saltar;
+	
+	public String getAndar() {
+		return andar;
+	}
+	public void setAndar(String andar) {
+		this.andar = andar;
+	}
+	public float getSaltar() {
+		return saltar;
+	}
+	public void setSaltar(float saltar) {
+		this.saltar = saltar;
+	}
+	
+	public void fazerMovimento() {
+		System.out.println("Animal terreste pode nadar, saltar e etc...");
+	}
+}

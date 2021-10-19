@@ -1,0 +1,25 @@
+package estudoherancapoo;
+
+public class AnimalTerreste {
+	
+	private String andar;
+	private float saltar;
+	
+	public void fazerMovimento() {
+		System.out.println("Animais terrestres podem andar, saltar e etc...");
+	}
+	
+	public String getAndar() {
+		return andar;
+	}
+	public void setAndar(String andar) {
+		this.andar = andar;
+	}
+	public float getSaltar() {
+		return saltar;
+	}
+	public void setSaltar(float saltar) {
+		this.saltar = saltar;
+	}
+	
+}
