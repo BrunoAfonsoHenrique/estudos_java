@@ -18,11 +18,7 @@ public class ProjetoLivro {
 		
 		l[1].folhear(99);
 		System.out.println(l[1].detalhes());
-		
-		System.out.println(l[0].getTitulo());
-		
-		
-		
+			
 
 	}
 

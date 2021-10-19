@@ -1,0 +1,15 @@
+package aula011heranca;
+
+public class aula011 {
+
+	public static void main(String[] args) {
+		
+		//Pessoa p1 = new Pessoa(); --> Linha errada
+		
+		Visitante v1 = new Visitante();
+		v1.setNome("Bruno");
+		v1.setIdade(26);
+		v1.setSexo("M");
+	}
+
+}
