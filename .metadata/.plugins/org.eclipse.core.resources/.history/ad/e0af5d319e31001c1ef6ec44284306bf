@@ -1,0 +1,16 @@
+package aula011heranca;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Visitante v1 = new Visitante();
+		v1.setNome("Isabele");
+		v1.setIdade(25);
+		v1.setSexo("F");
+		System.out.println(v1.toString());
+		v1.fazerAnive();
+
+	}
+
+}

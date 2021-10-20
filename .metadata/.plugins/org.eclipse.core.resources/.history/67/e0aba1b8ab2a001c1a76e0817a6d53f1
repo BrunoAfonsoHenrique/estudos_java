@@ -1,8 +1,0 @@
-package alula07relacionamentoentreclasses.cliente;
-
-public class Compra {
-	
-	private Cliente comprador;
-	private int numeroCompra;
-	
-}

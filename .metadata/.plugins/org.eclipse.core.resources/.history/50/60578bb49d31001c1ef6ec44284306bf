@@ -1,0 +1,12 @@
+package aula011heranca;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Visitante v1 = new Pessoa();
+		v1.getNome();
+
+	}
+
+}
