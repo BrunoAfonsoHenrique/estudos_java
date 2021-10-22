@@ -1,0 +1,5 @@
+package projetofinalpoo;
+
+public interface AcoesVideo {
+
+}

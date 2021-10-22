@@ -1,0 +1,5 @@
+package polimorfismosobrecarga;
+
+public class Lobo extends Mamifero{
+	
+}

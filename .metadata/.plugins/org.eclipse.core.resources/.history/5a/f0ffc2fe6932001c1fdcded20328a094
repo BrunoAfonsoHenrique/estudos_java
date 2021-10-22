@@ -1,0 +1,13 @@
+package polimorfismosobrecarga;
+
+public class Lobo extends Mamifero{
+	
+	public void reagir(String frase) {
+		if(frase.equals("toma comida") || frase.equals("Olá")) {
+			System.out.println("Abanar e latir");
+		}
+		else {
+			System.out.println("Rosnar");
+		}
+	}
+}

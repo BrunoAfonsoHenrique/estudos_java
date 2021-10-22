@@ -43,5 +43,4 @@ public class TesteAnimal {
 		ca.emitirSom();
 
 	}
-
 }
